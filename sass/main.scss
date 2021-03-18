@@ -1,0 +1,81 @@
+                     *,
+                     *::after,
+                     *::before {
+                         margin: 0;
+                         padding: 0;
+                         box-sizing: inherit;
+                     }
+                     
+                     html,
+                     body {
+                         font-family: 'Montserrat', sans-serif;
+                         height: 100%;
+                         margin: 0;
+                         padding: 0;
+                     }
+                     
+                     .header {
+                         width: 100%;
+                         display: flex;
+                         justify-content: center;
+                         &__logo {
+                             height: 30px;
+                             padding: 1rem;
+                         }
+                         &__search {
+                             width: 100%;
+                             text-decoration: none;
+                             font-size: 1.3rem;
+                             background-color: rgb(175, 175, 224);
+                             &--icon {
+                                 padding: 1rem;
+                             }
+                             &--input {
+                                 padding: 1rem;
+                                 .textbox {
+                                     border: 1px solid rgb(175, 175, 224);
+                                     outline: 0;
+                                     background-color: rgb(175, 175, 224);
+                                     font-size: 16px;
+                                     padding: 3px 6px 3px 6px;
+                                 }
+                             }
+                         }
+                     }
+                     
+                     .foot {
+                         width: 100%;
+                         display: flex;
+                         flex-wrap: wrap;
+                         justify-content: center;
+                         text-align: center;
+                         &--heading {
+                             padding: 1.5rem;
+                             width: 65%;
+                             font-size: 28px;
+                             font-weight: bold;
+                             height: auto;
+                             color: black;
+                             display: flex;
+                             text-justify: auto;
+                             padding: 1.5rem 1.5rem 0 1.5rem;
+                         }
+                         &--title {
+                             width: 90%;
+                             font-size: 24px;
+                             padding: 1.5rem;
+                             color: rgb(207, 202, 202);
+                         }
+                         &--text {
+                             width: 60%;
+                             padding: 1.5rem;
+                             font-size: 22px;
+                             color: white;
+                             background-color: rgb(175, 175, 224);
+                             border-radius: 30px;
+                             -webkit-border-radius: 30px;
+                             -moz-border-radius: 30px;
+                             -ms-border-radius: 30px;
+                             -o-border-radius: 30px;
+                         }
+                     }

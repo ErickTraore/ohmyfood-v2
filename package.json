@@ -1,0 +1,20 @@
+{
+    "name": "ohmyfood-sass",
+    "version": "1.0.0",
+    "description": "projet openclassroom",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ErickTraore/ohmyfood-sass.git"
+    },
+
+    "author": "traore",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ErickTraore/ohmyfood-sass/issues"
+    },
+    "homepage": "https://github.com/ErickTraore/ohmyfood-sass#readme"
+}

@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.header {
+  width: auto;
+  height: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center; }
+  .header__logo {
+    width: auto;
+    height: auto;
+    background-color: #f316b1; }
+    .header__logo__hover {
+      background-color: #0ef15a; }
+
+/*# sourceMappingURL=style.css.map */
